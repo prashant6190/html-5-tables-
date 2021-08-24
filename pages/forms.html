@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Forms Starts Here!</h1>
+    <br><br>
+    <form action="../index.html">
+        <!-- Using Label is not Necessary in Forms -->
+        <label for="name">Name</label>
+
+        <!-- Value helps in Printing value of the user input -->
+        <!-- id will tell which input id we have to acces -->
+
+        <input type="text" name="name" id="name" placeholder="Name" value="" required>
+        <br><br>
+        <label for="email">Email Address</label>
+        <input type="email" name="email" id="email" placeholder="Your Email Address.." value="" required>
+        <br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" value="" placeholder="Your Password.." required>
+        <br><br>
+        <label for="phone">Phone Numbers</label>
+        <input type="tel" name="phone" required id="phone" value="" maxlength="10" minlength="10" placeholder="Your Phone Number..">
+        <br><br>
+
+
+        <!-- radioButtons -->
+        <label for="language">Language</label>
+        <br><br>
+        <input type="radio" name="language" id="language" value="" required>
+        React
+        <br>
+        <input type="radio" name="language" id="Language" required>
+        Angular
+        <br>
+        <input type="radio" name="language" id="Language" required>
+        Vue
+        <br><br>
+
+
+        <!-- CHeckboxes -->
+
+        <label for="course">Course</label>
+        <br><br>
+        <input type="checkbox" name="course" id="course" value="Mern">
+        MERN
+        <br>
+        <input type="checkbox" name="course" id="course" value="MEAN">
+        MEAN
+        <br>
+        <input type="checkbox" name="course" id="course" value="MEAVN">
+        MEAVN
+        <br><br>
+
+        <!-- DropDown Starts Here -->
+        Course
+        <select name="dropdown" id="Course">
+            <option value=""></option>
+            <option value="react">React</option>
+            <option value="angular">Angular</option>
+            <option value="vue">Vue</option>
+        </select>
+        <br><br>
+
+
+        <!-- Textarea Starts Here -->
+        Description:
+        <br><br>
+        <textarea name="Description" id="textareas" placeholder="Your Querry.." cols="30" rows="10" maxlength="5"
+            required></textarea>
+        <br><br>
+        <button type="submit">Submit</button>
+    </form>
+    <br>
+    <br>
+    <h1>TABLES</h1>
+    <a href="../index.html">Click Here</a>
+  
+
+</body>
+
+</html>
